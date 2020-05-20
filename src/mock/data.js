@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'p1.png',
     title: 'Tggr | Tag based file sharing',
     info:
       "Tired of digging mails for that drive link to upload files. Worry no more. Upload files under a common tag name and collaborate like never before. Suppose a professor wants her students to submit their assignments digitally. All she has to do is create a tag like say '6th-sem-assignment' and share it with her students. The students can upload the files under that tag.",
@@ -41,11 +41,13 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    img: 'p2.png',
+    title: 'PU Results | Govt. PU College',
+    info:
+      'Due to COVID-19 lockdown colleges were asked not to display the results at the college, but to send it to them directly. The best solution to this was to build a Result Portal where they could check their results with their Reg. No.',
+    info2:
+      "So I built this portal for over 10,000 students to check their results. Each student had around 15 parameters. The DB was generated in MongoDB and I created a REST API with GraphQL queries. The frontend was built using Vue as it's easier and the development process is quicker.",
+    url: 'https://powerful-journey-50028.herokuapp.com/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
