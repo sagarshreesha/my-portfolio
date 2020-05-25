@@ -1,8 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
-import { Container, Image } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
-import prof from '../../images/prof.svg';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -39,7 +38,6 @@ const Header = () => {
           </p>
         </Fade>
       </Container>
-      <Image className="hero-img" src={prof} />
     </section>
   );
 };

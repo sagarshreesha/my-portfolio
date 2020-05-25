@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hi, I am',
   name: 'Shreesha Sagar',
-  subtitle: '<Developer/>. Lifelong Learner',
+  subtitle: 'Developer.  Lifelong Learner.',
   cta: 'Know More',
 };
 
@@ -23,7 +23,8 @@ export const aboutData = {
   paragraphTwo:
     'Motivated fast and effecient learner. Always trying to help out people with tech, be it my grandmother having issue with her smartphone or building a website for the government.',
   paragraphThree: 'Got a great idea ? Let me help you achieve it.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://firebasestorage.googleapis.com/v0/b/tutr-b2b58.appspot.com/o/Shreesha%20Sagar%20-%20RVCE.pdf?alt=media&token=e16eec37-1a9d-4158-906d-82c64c4f5f7b', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -52,12 +53,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'p3.png',
+    title: 'Tutr - Daily Academic Updates',
+    info:
+      "This is an online platform where professors can post the day to day happenings from the class so that students can stay updated with their academia. If a student has missed classes or revising for test or something, he can just run through the website to know what's going on in the class and learn.",
+    info2: 'Built using MEAN Stack as a part of our Web Programming and DBMS Mini Project.',
+    url: 'https://imgur.com/gallery/fUMn6pn',
   },
 ];
 
