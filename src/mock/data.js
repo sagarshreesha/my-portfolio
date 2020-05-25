@@ -24,7 +24,7 @@ export const aboutData = {
     'Motivated fast and effecient learner. Always trying to help out people with tech, be it my grandmother having issue with her smartphone or building a website for the government.',
   paragraphThree: 'Got a great idea ? Let me help you achieve it.',
   resume:
-    'https://firebasestorage.googleapis.com/v0/b/tutr-b2b58.appspot.com/o/Shreesha%20Sagar%20-%20RVCE.pdf?alt=media&token=e16eec37-1a9d-4158-906d-82c64c4f5f7b', // if no resume, the button will not show up
+    'https://firebasestorage.googleapis.com/v0/b/tutr-b2b58.appspot.com/o/Shreesha%20Sagar%20-%20RVCE.pdf?alt=media&token=312ee7a8-249e-4a9e-bce0-607adab3a564',
 };
 
 // PROJECTS DATA
