@@ -38,7 +38,7 @@ export const projectsData = [
     info2:
       "Built using React and Firebase. I had to go with Firebase because of it's one stop shop for database and storage bucket. There is nothing to say about React",
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/sagarshreesha/tggr-file-sharing', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -49,7 +49,7 @@ export const projectsData = [
     info2:
       "So I built this portal for over 10,000 students to check their results. Each student had around 15 parameters. The DB was generated in MongoDB and I created a REST API with GraphQL queries. The frontend was built using Vue as it's easier and the development process is quicker.",
     url: 'https://powerful-journey-50028.herokuapp.com/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/sagarshreesha/puc_results', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
