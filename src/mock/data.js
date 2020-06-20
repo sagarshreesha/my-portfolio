@@ -31,13 +31,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'p1.png',
+    img: 'p1.jpeg',
     title: 'Tggr | Tag based file sharing',
     info:
       "Tired of digging mails for that drive link to upload files. Worry no more. Upload files under a common tag name and collaborate like never before. Suppose a professor wants her students to submit their assignments digitally. All she has to do is create a tag like say '6th-sem-assignment' and share it with her students. The students can upload the files under that tag.",
     info2:
       "Built using React and Firebase. I had to go with Firebase because of it's one stop shop for database and storage bucket. There is nothing to say about React",
-    url: '',
+    url: 'https://tggr.netlify.app',
     repo: 'https://github.com/sagarshreesha/tggr-file-sharing', // if no repo, the button will not show up
   },
   {
